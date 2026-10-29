@@ -34,7 +34,7 @@ L0 is left unchanged on purpose, because it holds the finest detail and most of 
 
 ```text
 laplacian_pyramid_detail_enhancement/
-├── images/          # put your input images here (empty on purpose)
+├── images/          # create this folder and put your input images here
 ├── main.py
 ├── requirements.txt
 └── README.md
@@ -53,7 +53,7 @@ The `outputs/` folder is created automatically when the script runs.
    ```bash
    pip install -r requirements.txt
    ```
-3. Add your own images to the `images/` folder. Sample images are not included in this repository.
+3. Create an `images/` folder in the project root and add your own images to it. Sample images are not included in this repository.
 4. Run the script:
    ```bash
    python main.py
